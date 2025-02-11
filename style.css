@@ -1,0 +1,65 @@
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+body {
+    background-color: black;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1{
+    text-align: center;
+    color: white;
+
+  }
+  p{
+    text-align: center;
+    color: white;
+
+  }
+  .photo {
+    text-align: center;
+    float: both;
+    
+
+  }
+  /* Media Query for Tablets (768px and below) */
+  @media screen and (max-width: 768px){
+    body{
+        background: color #f0f0f0;
+    }
+  }
+  css @media (max-width: 768px) {.poster{width:80%; margin-left: 10%}}
+  I(max-width: 480px){h1{font-size;1rem}}
+  h2 {
+    text-align: center;
+    color: white;
+  }
+  img{
+    text-align: center;
+    float: both;
+    border: 10px solid white;
+    width: 25%;
+    border-style: solid;
+    border-color: white;
+    
+  }
+
+  footer{
+    text-align: center;
+    color: white;
+  }
